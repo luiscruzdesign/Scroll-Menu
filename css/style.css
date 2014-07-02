@@ -1,6 +1,25 @@
 /* line 3, ../sass/style.scss */
-header {
+body {
+  background: #fab400;
+  color: #2c2b2b;
+}
+
+/* line 8, ../sass/style.scss */
+a {
+  color: #2c2b2b;
+  text-decoration: none;
+}
+/* line 11, ../sass/style.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 16, ../sass/style.scss */
+#header {
   width: 100%;
-  background: #f1f1f1;
+  background: #fff000;
   height: 70px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }

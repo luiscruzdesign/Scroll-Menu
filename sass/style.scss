@@ -1,7 +1,23 @@
 @import "colors.scss";
 
-header {
+body {
+	background:$fifth-color;
+	color:$black;
+}
+
+a {
+	color:$black;
+	text-decoration:none;
+	&:hover{
+		text-decoration:underline;
+	}
+}
+
+#header {
 	width:100%;
-	background:$base-color;
+	background:$first-color;
 	height:70px;
+	overflow:hidden;
+	position:fixed;
+	top:0;
 }
